@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navig"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="Fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+    <fragment
+        android:id="@+id/tarifFragment"
+        android:name="Fragment.TarifFragment"
+        android:label="fragment_tarif"
+        tools:layout="@layout/fragment_tarif">
+
+    </fragment>
+    <fragment
+        android:id="@+id/minutFragment"
+        android:name="Fragment.MinutFragment"
+        android:label="fragment_minut"
+        tools:layout="@layout/fragment_minut"/>
+    <fragment
+        android:id="@+id/tarifInfo"
+        android:name="Fragment.TarifInfo"
+        android:label="fragment_tarif_info"
+        tools:layout="@layout/fragment_tarif_info" />
+    <fragment
+        android:id="@+id/minutInfo"
+        android:name="Fragment.MinutInfo"
+        android:label="fragment_minut_info"
+        tools:layout="@layout/fragment_minut_info" />
+</navigation>
