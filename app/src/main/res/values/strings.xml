@@ -9,4 +9,12 @@
     <string name="sms">SMS</string>
     <string name="news">News</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="oylik_internet_to_plamlar">Oylik Internet To\'plamlar</string>
+    <string name="_300_mb">300 MB</string>
+    <string name="_8_000_so_m">8.000 so\'m</string>
+    <string name="kunlik_internet_to_plamlar">Kunlik Internet To\'plamlar</string>
+    <string name="corporate">Corporate 30, Corporate 50,Corporate 80 tarif rejalaridagi to‘plamlarning yangilanishi!</string>
+    <string name="ba_tafsil">Ba\'tafsil</string>
+    <string name="Kunlik_internet">«Kunlik internet-to‘plamlar narxlarining tushurilishi» aksiyasi uzaytirilganini</string>
+    <string name="tungi_drive">«Tungi DRIVE xizmati narxlarining tushurilishi» aksiyasining uzaytirilishi</string>
 </resources>

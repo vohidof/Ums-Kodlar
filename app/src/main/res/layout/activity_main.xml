@@ -6,6 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_70dp"
+        android:background="@color/red"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/navHost"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_10dp"
+            android:padding="@dimen/size_10dp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/imgSpeed"
+            android:layout_width="@dimen/size_70dp"
+            android:layout_height="@dimen/size_70dp"
+            android:layout_marginLeft="@dimen/size_110dp"
+            android:gravity="end"
+            android:padding="@dimen/size_10dp"
+            android:src="@drawable/ic_speedometer" />
+
+    </LinearLayout>
 
     <fragment
         android:id="@+id/navHost"
@@ -16,7 +45,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/my_navig" />
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:navGraph="@navigation/my_navig"
+        android:layout_marginTop="@dimen/size_70dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
